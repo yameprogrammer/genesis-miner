@@ -12,7 +12,7 @@ reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
 scraper = "0.18"
 
 # 데이터베이스 (SQLite)
-rusqlite = { version = "0.29", features = ["bundled"] }
+rusqlite = { version = "0.29", features = ["bundled", "chrono"] }
 
 # 데이터 처리 및 설정 파일 (JSON, YAML, MD)
 serde = { version = "1.0", features = ["derive"] }
@@ -25,3 +25,6 @@ teloxide = { version = "0.12", features = ["macros"] }
 # 클라우드 백업 및 외부 명령 실행
 anyhow = "1.0" # 에러 처리 통합
 dotenv = "0.15" # 환경 변수 관리 (.env)
+zip = "0.6" # Zip 압축 생성용
+html2md = "0.2.15"
+ammonia = "4.1.2"
