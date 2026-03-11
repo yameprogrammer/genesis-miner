@@ -1,0 +1,17 @@
+# Rust 컴파일 결과물
+/target
+
+# 환경 변수 (API 키 보호)
+.env
+
+# SQLite 데이터베이스 파일 및 백업
+/data/db/*.db
+/data/exports/*.md
+/data/backups/*.gz
+
+# 로그 파일
+/logs/*.log
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
